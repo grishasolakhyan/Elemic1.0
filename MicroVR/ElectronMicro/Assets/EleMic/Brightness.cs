@@ -20,9 +20,9 @@ public class Brightness : MonoBehaviour
     public float co_val;
     public float op_val;
 
-    private void OnApplicationQuit()
+    private void Start()
     {
-        Mat.SetFloat("_BrightnessParam", 0);
+        Mat.SetFloat("_BrightnessParam", -100);
         Mat.SetFloat("_OpacityParam", 100);
     }
 

@@ -15,26 +15,17 @@ public class ZoomCamera : MonoBehaviour
     public float minPos;
     public float maxPos;
 
-    public float Hspeed=2.0f;
-    public float Vspeed=2.0f;
-
-    private float yaw=0.0f;
-    private float pitch=0.0f;
-
     private float ProX;
     private float ProY;
     private float ProZ;
 
     public float speed = .2f;
-
-    private Quaternion t;
     private Vector3 ang;
 
     private void Start()
     {
         Application.targetFrameRate = 60;
         startingPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-        //startingRot = transform.rotation.eulerAngles; 
     }
 
     private void Update()
@@ -83,13 +74,6 @@ public class ZoomCamera : MonoBehaviour
             GetComponent<Transform>().position = new Vector3(currentX, currentY, currentZ);
         }
 
-        /*if (Input.GetMouseButton(2))
-        {
-            yaw += Hspeed * Input.GetAxis("Mouse X");
-            pitch -= Vspeed * Input.GetAxis("Mouse Y");
-            transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
-        }*/
-
         currentX = Mathf.Clamp(currentX, minPos, maxPos);
         currentY = Mathf.Clamp(currentY, minPos, maxPos);
         currentZ = Mathf.Clamp(currentZ, minPos, -1);
@@ -99,13 +83,8 @@ public class ZoomCamera : MonoBehaviour
         //возврат на начальную позицию
         if (Input.GetKey(KeyCode.I))
         {
-            //GetComponent<Transform>().position = startingPos;
-            //GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 0);
             float go = 1f;
             GetComponent<Transform>().position = Vector3.Lerp(transform.position, startingPos, go);
-            //t = Quaternion.Euler(0, 0, 0);
-            //GetComponent<Transform>().rotation = Quaternion.Lerp(transform.rotation, t, go);
-            //ang = transform.rotation.eulerAngles;
         }
     }
 }

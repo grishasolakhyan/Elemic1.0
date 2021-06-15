@@ -530,7 +530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "100 \xB5m"
+  m_Text: 
 --- !u!222 &56696479
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7971,8 +7971,6 @@ MonoBehaviour:
   startingRot: {x: 0, y: 0, z: 0}
   minPos: -5
   maxPos: 5
-  Hspeed: 4
-  Vspeed: 4
   speed: 0.2
 --- !u!1 &1218381375
 GameObject:
@@ -11891,7 +11889,7 @@ MonoBehaviour:
   m_MinValue: -100
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: -100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

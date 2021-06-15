@@ -69,7 +69,6 @@
     <Compile Include="Assets\EleMic\element_click.cs" />
     <Compile Include="Assets\EleMic\element_legend.cs" />
     <Compile Include="Assets\EleMic\exit_click.cs" />
-    <Compile Include="Assets\EleMic\framerate.cs" />
     <Compile Include="Assets\EleMic\RortateObject.cs" />
     <Compile Include="Assets\EleMic\scale.cs" />
     <Compile Include="Assets\EleMic\screensave.cs" />

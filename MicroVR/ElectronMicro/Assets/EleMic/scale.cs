@@ -17,6 +17,11 @@ public class scale : MonoBehaviour
     {
         firstposz = Cam.GetComponent<Transform>().position.z;
         lastposz = firstposz;
+
+        dist = Math.Abs(lastposz);
+        scal = 100 * (dist / 10);
+        Scale_text.text = Math.Round(scal, 2) + " µm";
+        firstposz = lastposz;
     }
 
     private void Update()
