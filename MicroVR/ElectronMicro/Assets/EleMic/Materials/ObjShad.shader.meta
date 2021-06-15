@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 18de8e918c128f24097620e60614d4ec
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SiONaMask: {instanceID: 0}
+  - _CaAlFeMask: {instanceID: 0}
+  - _CMgClMask: {instanceID: 0}
+  - _AuMask: {instanceID: 0}
+  - _MainTex: {instanceID: 0}
+  - _SiTex: {instanceID: 0}
+  - _OTex: {instanceID: 0}
+  - _NaTex: {instanceID: 0}
+  - _CaTex: {instanceID: 0}
+  - _FeTex: {instanceID: 0}
+  - _AlTex: {instanceID: 0}
+  - _CTex: {instanceID: 0}
+  - _MgTex: {instanceID: 0}
+  - _ClTex: {instanceID: 0}
+  - _AuTex: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
