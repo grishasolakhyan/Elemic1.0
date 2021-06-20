@@ -144,7 +144,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BrightnessParam: -100
+    - _BrightnessParam: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -152,10 +152,10 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _IntAl: 0
+    - _IntAl: 1
     - _IntAu: 0
     - _IntC: 0
-    - _IntCa: 0
+    - _IntCa: 1
     - _IntCl: 0
     - _IntFe: 0
     - _IntMg: 0
