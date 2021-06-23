@@ -152,10 +152,10 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _IntAl: 1
+    - _IntAl: 0
     - _IntAu: 0
     - _IntC: 0
-    - _IntCa: 1
+    - _IntCa: 0
     - _IntCl: 0
     - _IntFe: 0
     - _IntMg: 0
@@ -166,7 +166,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OpacityParam: 100
+    - _OpacityParam: 0
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

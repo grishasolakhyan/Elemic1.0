@@ -22,7 +22,7 @@ public class Brightness : MonoBehaviour
 
     private void Start()
     {
-        Mat.SetFloat("_BrightnessParam", -100);
+        Mat.SetFloat("_BrightnessParam", 0);
         Mat.SetFloat("_OpacityParam", 100);
     }
 
@@ -54,5 +54,10 @@ public class Brightness : MonoBehaviour
     public void op_Percents()
     {
         op_per.text = op_val + "%";
+    }
+    private void OnApplicationQuit()
+    {
+        Mat.SetFloat("_BrightnessParam", 0);
+        Mat.SetFloat("_OpacityParam", 100);
     }
 }

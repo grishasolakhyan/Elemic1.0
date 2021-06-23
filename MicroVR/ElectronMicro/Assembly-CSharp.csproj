@@ -72,6 +72,9 @@
     <Compile Include="Assets\EleMic\RortateObject.cs" />
     <Compile Include="Assets\EleMic\scale.cs" />
     <Compile Include="Assets\EleMic\screensave.cs" />
+    <Compile Include="Assets\EleMic\testBright.cs" />
+    <Compile Include="Assets\EleMic\testCamera.cs" />
+    <Compile Include="Assets\EleMic\testOpacity.cs" />
     <Compile Include="Assets\EleMic\ZoomCamera.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />

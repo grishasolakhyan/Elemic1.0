@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/Личные документы/Универ/ДИПЛОМ/Diploma2/MicroVR/ElectronMicro/EleMic 1.0/ElectronMicro.exe
+D:/Личные документы/Универ/ДИПЛОМ/Elemic1.0/MicroVR/ElectronMicro/EleMic 1.0/ElectronMicro.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -100,9 +100,10 @@ aa165095bcf0f4d99594ea33df01c81b UnityEngine.UI.dll:UnityEngine.UI.Slider
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+073d6897c74b377bc929bb6a5ba0c49d Assembly-CSharp.dll:.testOpacity
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Ball.BallUserControl
 1731d95cc8dce262956d345535456351 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.AutoCam
-e77bce5f84e13c0c0039bf1f15c7e882 Assembly-CSharp.dll:.ZoomCamera
+e60da177d5d29f916684c40e602a5ea6 Assembly-CSharp.dll:.ZoomCamera
 14247f5bcb178988aa83c3fee6b79e6e Assembly-CSharp.dll:.scale
 e540a01426f9ad59088593bf72bcd255 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -155,6 +156,7 @@ fdd7177da17032ba94d98037cc97bb49 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 dc0c855440d59a516315a62ef55d7fd8 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.CameraFollow
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 f03168bb2f3505e6cc0ba61aff5d31ab Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.LookatTarget
+17e60b3318e18aaddffb248c7ee2f407 Assembly-CSharp.dll:.testBright
 c88c4199b288356ec3eb2f0d85abc619 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
 0e0c7e6c34f2d19ba95cf463e39888b1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.HeadBob
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl
@@ -163,6 +165,7 @@ a4d879eed97e8d86fd752672fc026fa2 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 f8bd7a92bf9f22d289759689ae7b1fd4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SmoothFollow
 14d684e5eb706041b258044f3a2d3861 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.PlanarReflection
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.Displace
+05bfc4d91013813b2dc05dae708caeec Assembly-CSharp.dll:.testCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 296fe27bf6a67ad114f808be4eaa08cc Assembly-CSharp.dll:UnityStandardAssets.SceneUtils.ParticleSceneControls
 65c9e8f2d0653991d518373cd4240b97 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.LandingGear
@@ -253,4 +256,3 @@ df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.element_legend
 5e869f601eca6873b969dceef87d6303 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 47cd05cf11ce8beb2fd9a1522f58f5ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.framerate
